@@ -1,0 +1,292 @@
+
+body {
+    font-family: "Raleway";
+    text-align: center;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway";
+    text-align: left;
+  }
+  
+  p {
+    color: #8f8f8f;
+    text-align: left;
+  }
+  
+  /* Headings */
+  
+  .big-heading {
+    font-family: "Raleway";
+    font-size: 5rem;
+    line-height: 1.5;
+    font-weight: bold;
+    padding-top: 10rem;
+  }
+  
+  .c1{
+      display: inline-block;
+    }
+    .c2{
+      display: inline-block;
+    }
+    .c3{
+      display: inline-block;
+    }
+    .c4{
+      display: inline-block;
+    }
+    h1{
+      font-size: 3.2rem;
+      margin-top: 1%;
+    }
+    h1 .type{
+        font-size: 1.5rem;
+        overflow: hidden;
+        border-right: .15em solid white;
+        white-space: nowrap;
+        width: 0;
+        animation:
+          typing 1s steps(25, end) forwards;
+    }
+    h1 .type2{
+        font-size: 1.5rem;
+        overflow: hidden;
+        border-right: .15em solid white;
+        white-space: nowrap;
+        width: 0;
+        animation:
+          typing 1s steps(25, end) forwards;
+        animation-delay: 1s;
+    }
+    h1 .type3{
+        font-size: 1.5rem;
+        overflow: hidden;
+        border-right: .15em solid #b363d5;
+        white-space: nowrap;
+        width: 0;
+        animation:
+          typing 1s steps(25, end) forwards;
+        animation-delay: 2s;
+    }
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+    @keyframes blink {
+      from { border-color: transparent }
+      to { border-color: #293462; }
+    }
+  
+  
+  .contact-sec {
+    font-family: "Raleway";
+    font-size: 2rem;
+    line-height: 1.5;
+    /* padding-top: 10rem; */
+  }
+  
+  .section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  /* Containers */
+  
+  .container-fluid{
+    padding: 7% 15%;
+  }
+  
+  /* Sections */
+  
+  .colored-section {
+    background: url(hero-img_darkhead.jpg);
+    color: #fff;
+  }
+  
+  .white-section {
+    background: url(desk.jpg);
+  }
+  
+  /* Navigation Bar */
+  
+  .navbar {
+    padding: 0 0 4.5rem;
+  }
+  
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .navbar-brand{
+    display: flex;
+    
+    }
+    .navbar-brand svg{
+        height: 48px;
+        width: 48px;
+        margin-right: 1em;
+        margin-left: 5vw;
+    }
+    .navbar-brand svg path{
+        fill:white;
+        stroke: white;
+    }
+    .navbar svg circle{
+        fill:white;
+        stroke: white;
+    }
+  
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    color: #fff;
+  }
+  
+  /* Buttons */
+  
+  .resume-button {
+    /* margin: 1% 3% 5% 0; */
+    color: white;
+    background-color: black;
+  }
+  
+  .resume-button:hover {
+    background-color: #b363d5;
+  }
+  /* Title Section */
+  
+  #title {
+    /* background-color: #001D6E; */
+    /* background-color: #FEB139; */
+    background-color: #293462;
+    color: #fff;
+    text-align: left;
+  }
+  
+  #title .container-fluid {
+    padding: 3% 15% 25%;
+  }
+  
+  /* Title Image */
+  
+  .title-image {
+    width: 50%;
+    position: absolute;
+    left: 5%;
+    transform: rotate(25deg);
+  }
+  
+  .title-image:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  
+  /* Features Section */
+  
+  
+  .about {
+    color: #000;
+    font-size: 1.2rem;
+  }
+  
+  .marks{
+    background-color: #000;
+  }
+  
+  #features {
+    position: relative;
+  }
+  
+  .feature-title {
+    font-size: 1.5rem;
+  }
+  
+  .feature-box {
+    padding: 2% 1% 4.5% 1%;
+  }
+  
+  .icon {
+    color: #000;
+    /* margin-bottom: 1rem; */
+    margin-right: 1rem;
+    /* margin-top: 10%; */
+  }
+  
+  .icons{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .icon:hover {
+    color:#b363d5;
+  }
+  
+  .icon-end{
+    color: #000;
+    margin: 0.5rem;
+  }
+  
+  .icon-end:hover{
+    color: #b363d5;
+  }
+  
+  .icon-cont{
+    color: #fff;
+    margin: 0.5rem;
+  }
+  
+  .icon-cont:hover{
+    color: #b363d5;
+  }
+  
+  
+  /* Pricing Section */
+  
+  #pricing {
+    padding: 100px;
+  }
+  
+  #features {
+    padding: 100px;
+  }
+  
+  .price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  .pricing-column {
+    padding: 3% 2%;
+  }
+  
+  /* CTA Section */
+  
+  
+  /* Footer Section */
+  
+  
+  .social-icon {
+    margin: 20px 10px;
+  }
+  
+  @media (max-width: 1028px) {
+  
+    #title {
+      text-align: center;
+    }
+  
+    .title-image {
+      position: static;
+      transform: rotate(0);
+    }
+  }
+  
+  .skill-desc{
+    font-size: 1.2rem;
+    text-align:left;
+  }
